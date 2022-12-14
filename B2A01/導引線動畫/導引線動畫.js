@@ -617,8 +617,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/導引線動畫_atlas_1.png?1670243972404", id:"導引線動畫_atlas_1"},
-		{src:"images/導引線動畫_atlas_2.png?1670243972405", id:"導引線動畫_atlas_2"}
+		{src:"images/導引線動畫_atlas_1.png?1670244242358", id:"導引線動畫_atlas_1"},
+		{src:"images/導引線動畫_atlas_2.png?1670244242358", id:"導引線動畫_atlas_2"}
 	],
 	preloads: []
 };
