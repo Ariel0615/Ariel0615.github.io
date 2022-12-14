@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"走鋼索的人1_atlas_1", frames: [[0,52,89,30],[0,0,97,50],[99,0,48,96]]}
+		{name:" 走鋼索的人B2A01_atlas_1", frames: [[0,52,89,30],[0,0,97,50],[99,0,48,96]]}
 ];
 
 
@@ -27,35 +27,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["走鋼索的人1_atlas_1"]);
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss[" 走鋼索的人B2A01_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["走鋼索的人1_atlas_1"]);
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss[" 走鋼索的人B2A01_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["走鋼索的人1_atlas_1"]);
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss[" 走鋼索的人B2A01_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
-	this.initialize(img.CachedBmp_3);
+(lib.CachedBmp_2 = function() {
+	this.initialize(img.CachedBmp_2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3050,358);
 
 
-(lib.CachedBmp_2 = function() {
-	this.initialize(img.CachedBmp_2);
+(lib.CachedBmp_1 = function() {
+	this.initialize(img.CachedBmp_1);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3050,358);// helper functions:
 
@@ -138,7 +138,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_5();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -229,7 +229,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_4();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -297,7 +297,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib.CachedBmp_4();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -319,7 +319,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_3();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(-762.4,-89.45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -342,7 +342,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_2();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-762.4,-89.45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -414,7 +414,7 @@ p.nominalBounds = new cjs.Rectangle(-4,-0.3,95.3,130.8);
 
 
 // stage content:
-(lib.走鋼索的人1 = function(mode,startPosition,loop,reversed) {
+(lib.走鋼索的人B2A01 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -461,9 +461,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_3.png?1671004199675", id:"CachedBmp_3"},
-		{src:"images/CachedBmp_2.png?1671004199675", id:"CachedBmp_2"},
-		{src:"images/走鋼索的人1_atlas_1.png?1671004199569", id:"走鋼索的人1_atlas_1"}
+		{src:"images/CachedBmp_2.png?1671004629673", id:"CachedBmp_2"},
+		{src:"images/CachedBmp_1.png?1671004629673", id:"CachedBmp_1"},
+		{src:"images/ 走鋼索的人B2A01_atlas_1.png?1671004629574", id:" 走鋼索的人B2A01_atlas_1"}
 	],
 	preloads: []
 };
